@@ -1,0 +1,178 @@
+* {
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    display: flex;
+    align-items: center;
+
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 25px;
+    background-color: #464746;
+    height: 90px;
+    color: black;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.portifolio {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    
+}
+
+menu {
+    display: flex;
+
+    gap: 30px;
+    margin-left: 1100px;
+   
+
+
+}
+
+a {
+    color: black;
+}
+
+
+.pp {
+    width: 250px;
+    border-radius: 10px;
+    margin-left: 185px;
+}
+
+.imagemprojetoBig {
+    width: 135px;
+    border-radius: 10px;
+
+}
+
+.imagemBig {
+    margin-left: 250px;
+    margin-bottom: 00px;
+
+}
+
+.imgemBreve {
+    margin-right: 100px;
+}
+
+
+
+
+div {
+    width: 100%;
+    height: 800px;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #464746;
+
+}
+
+.dProjetos {
+
+    display: flex;
+    
+    flex-direction: column;
+    margin-bottom: 0px;
+    padding:10px;
+    margin-left: 100px;
+    
+
+
+
+}
+
+
+
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    gap: 50px;
+    width: 100%;
+    height: 100%;
+    background-color: #464746;
+    padding: 30px;
+}
+
+
+.contacto {
+    width: 50px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.contact {
+    width: 100px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.ww {
+    margin-left: 05px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.ln {
+
+    width: 50px;
+    cursor: pointer;
+}
+
+.dev-club{
+    display: flex;
+    border-radius: 5px;
+    width: 50px;
+    
+    z-index: 1;
+    
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.ln:hover{
+    scale: 1.2;
+}
+.ww:hover{
+    scale: 1.2;
+}
+.contacto:hover{
+    scale: 1.2;
+}
+.mn:hover{
+    scale: 1.2;
+}
+
+
+.imagemprojetoBig:hover {
+    scale: 1.2;
+    transition: 2ms;
+}
+
+.imgemBreve:hover{
+    scale: 1.2;
+    transition: 2ms;
+}
+
