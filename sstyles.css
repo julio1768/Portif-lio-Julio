@@ -33,13 +33,76 @@ header {
 
 menu {
     display: flex;
-
     gap: 30px;
-    margin-left: 1100px;
+    margin-left: 900px;
+    margin-bottom: 20px;
    
 
 
 }
+
+.introduçao{
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding-bottom: 119px;
+    margin-left: 30px;
+
+    
+}
+
+.texto{
+    display: flex;
+    width: 600px;
+    flex-direction: column;
+    gap: 148px;
+    margin-top: -790px;
+    margin-bottom: 150px;
+
+}
+.tec{
+    width: 50%;
+    height: 900px;
+    gap: 30px;
+    
+}
+
+.imgastro{
+    
+    width: 200px;
+   
+   margin-top:-90px ;
+    margin-left: 10px;
+   
+
+}
+
+.ast{
+    display: flex;
+    align-items: start;
+    flex-direction: row;
+    margin-left: 5px;
+    margin-top: -60px;
+    gap: 2px;
+    
+    margin-bottom: 5px;
+    
+}
+ .erro404{
+    margin-top: -382px;
+    width: 300px;
+    margin-left: 750px;
+   
+    
+
+ }
+
+
+
+
+
 
 a {
     color: black;
@@ -176,3 +239,8 @@ footer {
     transition: 2ms;
 }
 
+p{
+    color: #464746;
+    margin-left: 200px;
+    margin-top: -110px;
+}
