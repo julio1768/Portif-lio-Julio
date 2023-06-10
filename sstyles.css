@@ -62,6 +62,11 @@ menu {
     margin-bottom: 150px;
 
 }
+p{
+    color: #464746;
+    margin-left: 200px;
+    margin-top: -110px;
+}
 .tec{
     width: 50%;
     height: 900px;
@@ -239,8 +244,3 @@ footer {
     transition: 2ms;
 }
 
-p{
-    color: #464746;
-    margin-left: 200px;
-    margin-top: -110px;
-}
